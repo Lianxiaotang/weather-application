@@ -10,6 +10,7 @@
     tools:context="mg.studio.weatherappdesign.MainActivity">
 
     <TextView
+        android:id="@+id/tv_weekday"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="10dp"
@@ -143,7 +144,7 @@
                     android:layout_marginEnd="203dp"
                     android:layout_marginRight="203dp"
                     android:onClick="btnClick"
-                    app:srcCompat="@drawable/Refresh" />
+                    app:srcCompat="@drawable/refresh" />
 
 
             </RelativeLayout>
@@ -155,7 +156,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1">
-
+r
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -194,7 +195,7 @@
                 android:text="mon"
                 android:textAllCaps="true"
                 android:textColor="#909090"
-                android:background="@drawable/Backgroud"/>
+                android:background="@drawable/backgroud"/>
         </LinearLayout>
 
         <LinearLayout
@@ -216,7 +217,7 @@
                 android:text="tue"
                 android:textAllCaps="true"
                 android:textColor="#909090"
-                android:background="@drawable/Backgroud"/>
+                android:background="@drawable/backgroud"/>
         </LinearLayout>
 
         <LinearLayout
